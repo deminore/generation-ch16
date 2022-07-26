@@ -4,6 +4,28 @@ div{
     padding: 10px;
 }
 
-div li p{
+/* SELECTOR HIJO (>) */
+/* div > p{
     color: red;
-}
+} */
+
+
+ /* SELECTOR CONSECUTIVO (+) */
+/* div + p{
+    color: red;
+} */
+
+
+/* SELCTOR HERMANO (~) */
+/* ~ alt +126 */
+/* div ~ p{
+    color: red;
+} */
+
+
+/* SELECTOR DE ATRIBUTO [NOMBRE DEL ATRIBUTO] */
+/* p[unico]{
+    color: red;
+} */
+
+
