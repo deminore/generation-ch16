@@ -1,0 +1,55 @@
+.cuadro{
+
+    height: 150px;
+    width: 150px;
+
+    /*margin: 20px;*/ /* Margen del elemento*/
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    margin: 20px 40px;
+
+    padding: 20px; /* Margen interno del elemento*/
+    
+    border: 10px solid yellow; /* Borde en el elemento*/
+    
+    border-radius: 10px 20px 30px 40px; /* Redondea los bordes*/
+
+    /*display: inline-block; /*Hace que el elemento se comporte como elemento en línea, en lugar de en bloque*/
+}
+
+.el-1{
+    background-color: aquamarine;
+    position: static; /*static: posición por defecto*/
+}
+
+.el-2{
+    background-color: bisque;
+    position: absolute; /*absolute: sale del flujo de los elementos. Permite sacarlo y posicionarlo a conveniencia (indicando arriba, abajo, izquierda y derecha */
+    top: 0; /*También se pueden utilizar pixeles*/
+    right: 0;
+    /* bottom: 0;
+    right: 0; */
+}
+
+.el-3{
+    background-color: blue;
+    position: relative; /* Permite comenzar a mover el elemento a partir de la posición que tiene*/
+    bottom: 10px;
+    left: 350px;
+}
+
+.el-4{
+    background-color: blueviolet;
+    position: fixed; /*Saca al elemento del flujo */
+    bottom: 0;
+    right: 0;
+}
+
+.el-5{
+    background-color: coral;
+    position: sticky;
+    bottom: 0;
+}

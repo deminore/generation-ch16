@@ -1,0 +1,10 @@
+/*Para agregar una fuente se puede hacer con los links en en html o con un import en este documento */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap'); */
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+}
