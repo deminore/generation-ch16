@@ -1,0 +1,70 @@
+.cuadro-padre{
+    background-color: antiquewhite;
+    height: 600px;
+    display: flex;
+
+    flex-direction: row;
+
+    /* Funciona como word */
+    /* Alinea horizontalmente */
+    justify-content: space-between;
+
+    /* Alinea verticalmente */
+    align-items: center;
+}
+
+.cuadro{
+    height: 100px;
+    width: 100px;
+    padding: 50px 40px 30px 20px; /* Margen interno del elemento*/
+    margin: 20px 40px;
+    border: 10px solid yellow; /* Borde en el elemento*/    
+    border-radius: 10px 20px 30px 40px; /* Redondea los bordes*/
+}
+
+.el-1{
+    background-color: aquamarine;
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+.el-2{
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.el-3{
+    background-color: blue;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.el-4{
+    background-color: blueviolet;
+    flex-grow: 2;
+}
+
+/*.el-5{
+    background-color: coral;
+}*/
+
+/* INTRODUCCIÓN A BOOTSTRAP */
+.contenedor{
+    background-color:#80cccc;
+    height: 200px;
+    max-width: 1150px; /* El tamaño al que se ajusta,  depende de la pantalla */
+    margin: 0 auto;
+}
+
+.fila{
+    display: flex;
+}
+
+.columna{
+    flex-grow: 1;
+}
+
+.color-rojo{
+    background-color: red;
+}
+
