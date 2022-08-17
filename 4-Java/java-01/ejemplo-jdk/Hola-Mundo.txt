@@ -1,0 +1,27 @@
+------------------------------ Ejemplo-jdk ------------------------------
+
+*Notas: 
+	- Las clases en Java empiezan todas con mayúsculas.
+	- Las clases deben ser nombradas igual que el archivo en el que trabajamos
+	- Comentarios con // 
+	- Java no orientado a salidas
+	
+
+-------------------------------------------------------------------------
+
+Repositorio local con git bash.
+
+git init (inicializa el repositorio - se usa sólo una vez por repositorio)
+
+nano hola.java (crea un archivo nano llamado hola con la extensión .java)
+
+	class Hola (creamos una clase)
+	{     
+		// Esto es una clase del JDK Java
+		public static void main (String arg []){
+ 
+			// Declaración del método main
+			System.out.println("Hola mundo Java")
+
+		}
+	}
