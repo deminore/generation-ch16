@@ -1,12 +1,12 @@
+package MiSaludo;
+
+import java.util.Scanner;
+
 public class Saludo {
-    void saludar (){
-        System.out.println("Hola Java desde OOP");
+    public void saludar (){
+        System.out.println("Hola. Ingresa tu nombre: ");
+        Scanner sc = new Scanner(System.in);
+        String nombre = sc.nextLine();
+        System.out.println("Hola, " + nombre + ". Te saludo desde POO");
     }
-
-    String saludar0(){
-        String textoS = "Hola mundo Java Oop";
-        return textoS;
-    }
-
-
 }
