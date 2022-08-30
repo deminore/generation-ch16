@@ -4,13 +4,11 @@ package com.deme.h_abstracta;
 public class Circulo extends FigurasGeometricas {
     private float radio;
 
-    public Circulo(){
-
-    }
-
     public Circulo (float radio){
+        super("Cículo");
         this.radio = radio;
     }
+
     @Override
     public float area() {
         return (float) (Math.PI*Math.pow(radio, 2));
