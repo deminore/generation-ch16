@@ -15,7 +15,12 @@ ALTER TABLE compra ADD CONSTRAINT fk_clientes_compra FOREIGN KEY(cliente_id) REF
 ALTER TABLE compra DROP FOREIGN KEY fk_clientes_compra;
 
 
-INSERT INTO compra(cliente_id, fecha_compra, total, cantidad_productos) VALUES (1, '2022-09-06', 300.50, 2);
+INSERT INTO compra(cliente_id, fecha_compra, total, cantidad_productos) 
+VALUES (1, '2022-09-06', 300.50, 2),
+		(2, '2022-09-06', 300.50, 2),
+        (3, '2022-09-06', 300.50, 1);
+
+
 
 DROP TABLE compra;
 
